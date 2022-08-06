@@ -11,7 +11,7 @@ The purpose of this project is to analyze Amazon reviews written by members of t
 ## Results
 
 ***Deliverable 1: Perform ETL on Amazon Product Reviews***
-Using knowledge of the cloud ETL process, create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets, and extract the dataset into a DataFrame. You'll transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploade:
+Using knowledge of the cloud ETL process, create an AWS RDS database with tables in pgAdmin, pick a dataset from the Amazon Review datasets, and extract the dataset into a DataFrame. You'll transform the DataFrame into four separate DataFrames that match the table schema in pgAdmin. Then, upload the transformed data into the appropriate tables and run queries in pgAdmin to confirm that the data has been uploaded:
 
 Figure 1:
 
@@ -60,34 +60,11 @@ Figure 2.3:
 
 ## Summary
 
-To summarize, this project gained access to approximately 50 datasets. Each one containing reviews of a specific product, from clothing apparel to wireless products. Choosing one of these datasets, PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was also used to determine if there is any bias toward favorable reviews from Vine members in your dataset. The following summary is to be submitted to the SellBy stakeholders:
+To summarize, this project gained access to approximately 50 datasets. Each one containing reviews of a specific product, from clothing apparel to wireless products. Choosing one of these datasets (electronics), PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, PySpark was also used to determine if there is any bias toward favorable reviews from Vine members in your dataset. The following summary is to be submitted to the SellBy stakeholders:
 
-1. The tectonic plate data is added as a second layer group.
-2. The tectonic plate data is added to the overlay object.
-3. Add more information about the project as a paragraph on the page.
-4. The tectonic plate data is passed to the geoJSON() layer.
-5. The geoJSON() layer adds color and width to the tectonic plate lines.
-6. The tectonic layer group variable is 
-
-
-
-
-Structure, Organization, and Formatting (6 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections (2 pt)
-Each section has a heading and subheading (2 pt)
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (14 points)
-The written analysis has the following:
-
-Overview of the analysis of the Vine program:
-
-The purpose of this analysis is well defined (3 pt)
-Results:
-
-There is a bulleted list that addresses the three questions for unpaid and paid program reviews (7 pt)
-Summary:
-
-The summary states whether or not there is bias, and the results support this statement (2 pt)
-An additional analysis is recommended to support the statement (2 pt)
+1. The paid dataset contained 1,080 reviews.
+2. 454 of the 1,080 paid reviews were given 5-star ratings.
+3. 42 percent of the paid reviews were given 5-star ratings.
+4. The unpaid dataset contained 49,673 reviews.
+5. 23,043 of the 49,673 unpaid reviews were given 5-star ratings.
+6. There does not appear to be bias toward favorable reviews from Vine members who purchased electronic products on Amazon.
